@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Yami Sukehiro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: white;
+    }
+
+    header {
+      position: relative;
+      background: #111827;
+      padding: 2.5rem 1rem;
+      text-align: center;
+      border-bottom: 2px solid #facc15;
+      overflow: hidden;
+    }
+
+    header h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 3.5rem;
+      letter-spacing: 4px;
+      color: #facc15;
+      text-shadow: 0 0 12px #9333ea, 0 0 24px #9333ea;
+      position: relative;
+      z-index: 2;
+    }
+
+    .dimension-slash {
+      position: absolute;
+      top: -120%;
+      left: -120%;
+      width: 350%;
+      height: 350%;
+      background: repeating-linear-gradient(
+        135deg,
+        transparent 0%,
+        rgba(147, 51, 234, 0.7) 3%,
+        transparent 6%
+      );
+      opacity: 0.2;
+      animation: slash-move 2.5s linear infinite;
+      filter: blur(1px) brightness(1.5);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    @keyframes slash-move {
+      0% {
+        transform: translateX(-100%) translateY(-100%);
+      }
+      100% {
+        transform: translateX(100%) translateY(100%);
+      }
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .main-profile {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .main-profile img {
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #000;
+      border: 4px solid #5b21b6;
+      margin-bottom: 1rem;
+    }
+
+    .main-profile p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+      line-height: 1.6;
+      color: #ddd;
+    }
+
+    .section-title {
+      color: #facc15;
+      font-size: 1.4rem;
+      margin: 2rem 0 1rem;
+      border-bottom: 1px solid #444;
+      padding-bottom: 0.5rem;
+    }
+
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #1f2937;
+      padding: 0.5rem;
+      border-radius: 10px;
+      width: 130px;
+      text-align: center;
+      box-shadow: 0 0 8px #00000066;
+    }
+
+    .card img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #facc15;
+      margin-bottom: 0.3rem;
+    }
+
+    .card p {
+      font-size: 0.8rem;
+      color: #eee;
+    }
+
+    .country {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+      margin-top: 2rem;
+    }
+
+    .country img {
+      width: 250px;
+      border-radius: 12px;
+      border: 4px solid #facc15;
+      box-shadow: 0 0 8px #000;
+    }
+
+    .country-text {
+      max-width: 600px;
+      font-size: 1rem;
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 3rem;
+    }
+
+    .nav-button {
+      padding: 0.8rem 1.5rem;
+      background-color: #6520c0;
+      color: #000;
+      font-weight: bold;
+      font-size: 1rem;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .nav-button:hover {
+      background-color: #20044d;
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #111827;
+      padding: 1rem;
+      text-align: center;
+      color: #999;
+      font-size: 0.9rem;
+      border-top: 1px solid #333;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Yami Sukehiro</h1>
+  <div class="dimension-slash"></div>
+</header>
+
+<div class="container">
+
+  <div class="main-profile">
+    <img src="./assets/Yami.webp" alt="Yami Sukehiro">
+    <p>
+      Yami Sukehiro is the battle-hardened and often unpredictable captain of the Black Bulls. 
+      Originally from the distant land of Hino Country, he became one of the Clover Kingdom's strongest Magic Knights, 
+      known for his Dark Magic and philosophy of "surpassing limits".
+    </p>
+  </div>
+
+  <h2 class="section-title">Black Bulls Squad</h2>
+  <div class="grid">
+    <div class="card"><img src="./assets/Asta.webp" alt="Asta"><p>Asta</p></div>
+    <div class="card"><img src="./assets/Noelle.webp" alt="Noelle"><p>Noelle Silva</p></div>
+    <div class="card"><img src="./assets/Magna.webp" alt="Magna"><p>Magna Swing</p></div>
+    <div class="card"><img src="./assets/Luck.webp" alt="Luck"><p>Luck Voltia</p></div>
+    <div class="card"><img src="./assets/Charmy.webp" alt="Charmy"><p>Charmy Pappitson</p></div>
+    <div class="card"><img src="./assets/Vanessa.webp" alt="Vanessa"><p>Vanessa Enoteca</p></div>
+    <div class="card"><img src="./assets/Gauce.webp" alt="Gauche"><p>Gauche Adlai</p></div>
+    <div class="card"><img src="./assets/Grey.webp" alt="Grey"><p>Grey</p></div>
+    <div class="card"><img src="./assets/Henry.webp" alt="Henry"><p>Henry Legolant</p></div>
+    <div class="card"><img src="./assets/Gordon.webp" alt="Gordon"><p>Gordon Agrippa</p></div>
+    <div class="card"><img src="./assets/Zora.webp" alt="Zora"><p>Zora Ideale</p></div>
+    <div class="card"><img src="./assets/Nacht.webp" alt="Nacht"><p>Nacht Faust</p></div>
+    <div class="card"><img src="./assets/Secre.webp" alt="Secre"><p>Secre Swallowtail</p></div>
+  </div>
+
+  <h2 class="section-title">Yami's Homeland: Hino Country</h2>
+  <div class="country">
+    <img src="./assets/Hino-.webp" alt="Hino Country">
+    <div class="country-text">
+      Hino Country is a distant land in the Black Clover world, inspired by traditional Japanese culture. 
+      It is known for its warrior clans and samurai-like magic users. Yami originally came from this country before 
+      he was stranded in the Clover Kingdom and began his journey as a Magic Knight.
+    </div>
+  </div>
+
+  <div class="button-group">
+    <a class="nav-button" href="../page3/index.html">← Back to Noelle</a>
+    <a class="nav-button" href="../page5/index.html">Next: Julius →</a>
+  </div>
+
+</div>
+
+<footer>Lantan Archi Clemenz C. © 2025</footer>
+
+</body>
+</html>
