@@ -7,7 +7,7 @@ View the live version of one of the pages here:
 🔗 [Page 5 - Lucius and Julius](https://archi3l.github.io/Archi3L-WD-Seatwork-2/pages/page5/index%20copy.html)
 
 ## 📁 Project Structure
-
+```plaintext
 Archi3L-WD-Seatwork-2/
 ├── assets/
 │ ├── css/
