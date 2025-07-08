@@ -72,23 +72,22 @@ pages/
 │   └── index.html
 └── page5/
 |   ├── assets/
-|   │   ├── css/
-|   │   │   ├── style.css
-|   │   │   └── style1.css
-|   │   └── imgs/
-|   │       ├── Form.webp
-|   │       ├── Julius.webp
-|   │       ├── Julius2.webp
-|   │       ├── Lucius.webp
-|   │       ├── LuciusBg.webp
-|   │       ├── LuciusPic.webp
-|   │       ├── LZ.webp
-|   │       └── Time.webp
-|   ├── index copy.html
-|   ├── index.html
-|   ├── index copy.html
-|   └── index.html
-|
+|       ├── css/
+|       │   ├── style.css
+|       │   └── style1.css
+|       └── imgs/
+|           ├── Form.webp
+|           ├── Julius.webp
+|           ├── Julius2.webp
+|           ├── Lucius.webp
+|           ├── LuciusBg.webp
+|           ├── LuciusPic.webp
+|           ├── LZ.webp
+|           └── Time.webp
+├── index copy.html
+├── index.html
+├── index copy.html
+└── index.html
 └── LICENSE
 
 ## 🔑 Key Components and Technology
