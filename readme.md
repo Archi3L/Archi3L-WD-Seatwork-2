@@ -8,91 +8,92 @@ View the live version of one of the pages here:
 
 ## 📁 Project Structure
 ```plaintext
-Archi3L-WD-Seatwork-2/
-├── assets/
-│   ├── css/
-│   │   ├── style.css
-│   │   └── style1.css
-│   ├── img/
-│   │   ├── Asta and Yuno 2.webp
-│   │   ├── Bg.webp
-│   │   └── Transition.webp
-│   └── js/
-│       └── script.js
-│
-├── pages/
-│   ├── page1/
-│   │   ├── assets/
-│   │   │   ├── css/
-│   │   │   │   └── style.css
-│   │   │   └── img/
-│   │   │       ├── asta de black clover.webp
-│   │   │       ├── Asta_movie_concept.webp
-│   │   │       ├── Asta.webp
-│   │   │       ├── Asta2.jpg
-│   │   │       ├── Bg.webp
-│   │   │       └── Liebe.webp
-│   │   └── index.html
-│
-│   ├── page2/
-│   │   ├── assets/
-│   │   │   ├── css/
-│   │   │   │   └── style.css
-│   │   │   └── img/
-│   │   │       ├── Star Magic.webp
-│   │   │       └── Yuno wind.webp
-│   │   └── index.html
-│
-│   ├── page3/
-│   │   ├── assets/
-│   │   │   └── css/
-│   │   ├── Acier Silva - Black Clover.webp
-│   │   ├── Dragon.webp
-│   │   ├── Nebra Silva.webp
-│   │   ├── Noelle.webp
-│   │   ├── Nozel.webp
-│   │   ├── Solid.webp
-│   │   └── index.html
-│
-│   ├── page4/
-│   │   ├── assets/
-│   │   │   └── css/
-│   │   ├── Asta.webp
-│   │   ├── Charmy.webp
-│   │   ├── Gauce.webp
-│   │   ├── Gordon.webp
-│   │   ├── Grey.webp
-│   │   ├── Henry.webp
-│   │   ├── Hino.webp
-│   │   ├── Luck.webp
-│   │   ├── Magna.webp
-│   │   ├── Nacht.webp
-│   │   ├── Noelle.webp
-│   │   ├── Secre.webp
-│   │   ├── Vanessa.webp
-│   │   ├── Yami.webp
-│   │   ├── Zora.webp
-│   │   └── index.html
-│
-│   └── page5/
-│       ├── assets/
-│       │   ├── css/
-│       │   │   ├── style.css
-│       │   │   └── style1.css
-│       │   └── imgs/
-│       │       ├── Form.webp
-│       │       ├── Julius.webp
-│       │       ├── Julius2.webp
-│       │       ├── Lucius.webp
-│       │       ├── LuciusBg.webp
-│       │       ├── LuciusPic.webp
-│       │       ├── LZ.webp
-│       │       └── Time.webp
-│       └── index.html
-│
-├── index.html
-├── index copy.html
-└── LICENSE
+
+    Archi3L-WD-Seatwork-2/
+    ├── assets/
+    │   ├── css/
+    │   │   ├── style.css
+    │   │   └── style1.css
+    │   ├── img/
+    │   │   ├── Asta and Yuno 2.webp
+    │   │   ├── Bg.webp
+    │   │   └── Transition.webp
+    │   └── js/
+    │       └── script.js
+    │
+    ├── pages/
+    │   ├── page1/
+    │   │   ├── assets/
+    │   │   │   ├── css/
+    │   │   │   │   └── style.css
+    │   │   │   └── img/
+    │   │   │       ├── asta de black clover.webp
+    │   │   │       ├── Asta_movie_concept.webp
+    │   │   │       ├── Asta.webp
+    │   │   │       ├── Asta2.jpg
+    │   │   │       ├── Bg.webp
+    │   │   │       └── Liebe.webp
+    │   │   └── index.html
+    │
+    │   ├── page2/
+    │   │   ├── assets/
+    │   │   │   ├── css/
+    │   │   │   │   └── style.css
+    │   │   │   └── img/
+    │   │   │       ├── Star Magic.webp
+    │   │   │       └── Yuno wind.webp
+    │   │   └── index.html
+    │
+    │   ├── page3/
+    │   │   ├── assets/
+    │   │   │   └── css/
+    │   │   ├── Acier Silva - Black Clover.webp
+    │   │   ├── Dragon.webp
+    │   │   ├── Nebra Silva.webp
+    │   │   ├── Noelle.webp
+    │   │   ├── Nozel.webp
+    │   │   ├── Solid.webp
+    │   │   └── index.html
+    │
+    │   ├── page4/
+    │   │   ├── assets/
+    │   │   │   └── css/
+    │   │   ├── Asta.webp
+    │   │   ├── Charmy.webp
+    │   │   ├── Gauce.webp
+    │   │   ├── Gordon.webp
+    │   │   ├── Grey.webp
+    │   │   ├── Henry.webp
+    │   │   ├── Hino.webp   
+    │   │   ├── Luck.webp
+    │   │   ├── Magna.webp
+    │   │   ├── Nacht.webp
+    │   │   ├── Noelle.webp
+    │   │   ├── Secre.webp
+    │   │   ├── Vanessa.webp
+    │   │   ├── Yami.webp
+    │   │   ├── Zora.webp
+    │   │   └── index.html
+    │
+    │   └── page5/
+    │       ├── assets/
+    │       │   ├── css/
+    │       │   │   ├── style.css
+    │       │   │   └── style1.css
+    │       │   └── imgs/
+    │       │       ├── Form.webp
+    │       │       ├── Julius.webp
+    │       │       ├── Julius2.webp
+    │       │       ├── Lucius.webp
+    │       │       ├── LuciusBg.webp
+    │       │       ├── LuciusPic.webp
+    │       │       ├── LZ.webp
+    │       │       └── Time.webp
+    │       └── index.html
+    │
+    ├── index.html
+    ├── index copy.html
+    └── LICENSE
 
 
 ## 🔑 Key Components and Technology
